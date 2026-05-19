@@ -1,0 +1,7 @@
+app/(app)/generate/page.tsx(5,31): error TS2307: Cannot find module 'ai/react' or its corresponding type declarations.
+app/(app)/generate/page.tsx(51,16): error TS7006: Parameter '_prompt' implicitly has an 'any' type.
+app/(app)/generate/page.tsx(51,25): error TS7006: Parameter 'completion' implicitly has an 'any' type.
+app/(app)/generate/page.tsx(88,15): error TS7006: Parameter 'error' implicitly has an 'any' type.
+app/api/generate/route.ts(37,7): error TS2353: Object literal may only specify known properties, and 'maxTokens' does not exist in type 'CallSettings & { system?: string | SystemModelMessage | SystemModelMessage[] | undefined; allowSystemInMessages?: boolean | undefined; } & { ...; } & { ...; }'.
+app/api/generate/route.ts(41,19): error TS2551: Property 'toDataStreamResponse' does not exist on type 'StreamTextResult<ToolSet, Output<string, string, never>>'. Did you mean 'toTextStreamResponse'?
+lib/ai/schemas.ts(135,14): error TS2554: Expected 2-3 arguments, but got 1.
